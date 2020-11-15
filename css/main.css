@@ -1,0 +1,104 @@
+/*
+
+COLOR THEME:
+
+Primary Color: 
+Black:#2c649c
+White: #e9eff5
+
+*/
+
+
+body{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: 900;
+}
+
+h4,
+h5,
+h6 {
+    font-weight: 700;
+}
+
+.btn {
+    border-radius: 0.25rem !important;
+    box-shadow: none !important;
+}
+
+/* nav bar */
+.navbar {
+    background: #f8f9fa61 ;
+    color: black;
+}
+
+.my_navbar .container .navbar-brand,
+.my_navbar .container .navbar-collapse .navbar-nav .nav-item .nav-link{
+    color: #007bff;
+}
+
+/* Image Slider */
+.image_slider .container-fluid .carousel .carousel-inner {
+    height: 550px !important;
+}
+.image_slider div div div div img {
+    object-fit: fill;
+}
+
+/* games cards */
+ .container .row .col-sm-4 {
+    padding: 10px;
+}
+
+ .container .row .col-sm-4 .card img {
+    height: 250px;
+    object-fit: cover;
+}
+ 
+/* upcoming games  */
+.jumbotron{
+    background-color: #e9eff5;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}
+
+/* Welcome  Message */
+.welcome_message{
+    z-index: 100;
+    position: fixed; /* absolute; */
+    height: auto;
+    width: auto;
+    bottom: 0;
+    right: 0;
+    margin: 5px;
+    min-width: 200px;
+}
+
+/* footer */
+.footer{
+    background-color: #e9eff5;
+    color: #000000;
+    margin-bottom: 0px;
+    padding-bottom: 0px !important;
+}
+
+.footer .container .row div ul li i {
+    font-size:60px;
+    padding: 15px;
+}
+
+.footer .container-fluid{
+    background-color: #2c649c;
+    color: #000000;
+}
+
+.footer .footer-copyright{
+    background-color: #2c649c;
+    overflow: hidden;
+    color: rgba(255,255,255,0.6);
+}
