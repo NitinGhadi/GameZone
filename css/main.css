@@ -124,5 +124,13 @@ h6 {
         height: 400px !important;
     }
 }
-@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
-@media (min-width:1281px) { /* hi-res laptops and desktops */ }
+@media (min-width:1025px) { 
+    .image_slider .container-fluid .carousel .carousel-inner {
+        height: 550px !important;
+    }
+}
+@media (min-width:1281px) { 
+    .image_slider .container-fluid .carousel .carousel-inner {
+        height: 550px !important;
+    }
+}
